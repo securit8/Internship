@@ -65,7 +65,7 @@
             }
             
             .auth_link_button:hover {
-            background-color: rgba(244, 51, 51, 1)!important;
+            background-color: rgba(53, 101, 173, 1)!important;
             transition: 0.2s;
             }
         </style>
@@ -75,14 +75,14 @@
             @if (Route::has('login'))
                 <div class=" px-6 py-4 block">
                     <div class="text-center welcome_auth_header">
-                        <h1>Welcome To <b style="color:rgba(244, 51, 51, 1); font-weight: 700; ">ETTA</b></h1>
+                        <h1>Welcome To <b style="color:rgba(53, 101, 173, 1); font-weight: 700; ">ETTA</b></h1>
                     </div>
 
 
                     <div class="grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-2"> 
                         <div class="welcome_text order-last md:order-first" style="word-break: break-word">
                             <p>
-                                At <b style="color:rgba(244, 51, 51, 1); font-weight: 700; ">ETTA</b>, we believe in empowering our students with cutting-edge skills for the future.
+                                At <b style="color:rgba(53, 101, 173, 1); font-weight: 700; ">ETTA</b>, we believe in empowering our students with cutting-edge skills for the future.
                                 We're thrilled to introduce our Programming Learning Platform,
                                 a space where curiosity meets coding, and innovation becomes a daily pursuit.
                             </p>

@@ -21,7 +21,7 @@
 
             <!-- Email Address -->
             <div>
-                <x-label for="email" :value="__('Email')" style="color:rgba(244, 51, 51, 1); font-weight: 700; font-size: 15px;"/>
+                <x-label for="email" :value="__('Email')" style="color:rgba(53, 101, 173, 1); font-weight: 700; font-size: 15px;"/>
 
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
             </div>

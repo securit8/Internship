@@ -14,21 +14,21 @@
 
             <!-- Name -->
             <div>
-                <x-label for="name" :value="__('Name')" style="color: rgba(244, 51, 51, 1); font-weight: 700; font-size: 15px"/>
+                <x-label for="name" :value="__('Name')" style="color: rgba(53, 101, 173, 1); font-weight: 700; font-size: 15px"/>
 
                 <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
             </div>
 
             <!-- Email Address -->
             <div class="mt-4">
-                <x-label for="email" :value="__('Email')" style="color: rgba(244, 51, 51, 1); font-weight: 700; font-size: 15px"/>
+                <x-label for="email" :value="__('Email')" style="color: rgba(53, 101, 173, 1); font-weight: 700; font-size: 15px"/>
 
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
             </div>
 
             <!-- Password -->
             <div class="mt-4">
-                <x-label for="password" :value="__('Password')" style="color: rgba(244, 51, 51, 1); font-weight: 700; font-size: 15px"/>
+                <x-label for="password" :value="__('Password')" style="color: rgba(53, 101, 173, 1); font-weight: 700; font-size: 15px"/>
 
                 <x-input id="password" class="block mt-1 w-full"
                                 type="password"
@@ -38,7 +38,7 @@
 
             <!-- Confirm Password -->
             <div class="mt-4">
-                <x-label for="password_confirmation" :value="__('Confirm Password')" style="color: rgba(244, 51, 51, 1); font-weight: 700; font-size: 15px"/>
+                <x-label for="password_confirmation" :value="__('Confirm Password')" style="color: rgba(53, 101, 173, 1); font-weight: 700; font-size: 15px"/>
 
                 <x-input id="password_confirmation" class="block mt-1 w-full"
                                 type="password"
@@ -52,7 +52,7 @@
                 </x-button>
 
 
-                <a class="underline text-center" style="color: rgba(244, 51, 51, 1);" href="{{ route('login') }}">
+                <a class="underline text-center" style="color: rgba(53, 101, 173, 1);" href="{{ route('login') }}">
                     {{ __('Already registered?') }}
                 </a>
 
